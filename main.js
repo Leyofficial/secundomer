@@ -54,7 +54,7 @@ btnStart.addEventListener("click", () => {
         counterHours += 1;
       }
       hours.innerHTML = counterHours;
-    }, 1);
+    }, 1000);
   }
 });
 btnReset.addEventListener("click", () => {
