@@ -54,6 +54,14 @@ btnStart.addEventListener("click", () => {
         counterHours += 1;
       }
       hours.innerHTML = counterHours;
+      if (btnStart.innerHTML === "Start") {
+        counterSeconds = 0;
+        counterMinutes = 0;
+        counterHours = 0;
+        hours.innerHTML = "00";
+        minutes.innerHTML = "00";
+        seconds.innerHTML = "00";
+      }
     }, 1000);
   }
 });
