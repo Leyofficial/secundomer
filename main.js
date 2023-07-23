@@ -59,9 +59,9 @@ btnStart.addEventListener("click", () => {
 });
 btnReset.addEventListener("click", () => {
   localStorage.clear();
-  let counterSeconds = 0;
-let counterMinutes = 0;
-let counterHours = 0;
+  counterSeconds = 0;
+  counterMinutes = 0;
+  counterHours = 0;
   hours.innerHTML = "00";
   minutes.innerHTML = "00";
   seconds.innerHTML = "00";
