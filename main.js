@@ -72,7 +72,7 @@ btnReset.addEventListener("click", () => {
   counterHours = 0;
   hours.innerHTML = "00";
   minutes.innerHTML = "00";
-  seconds.innerHTML = 
+  seconds.innerHTML = "00";
 });
 let counterRound = 0;
 
